@@ -54,15 +54,8 @@ create table OrderDetails(
     idOrderDetails INT primary key,
     idOrder Int,
 	idProduct INT,
-	idPayment int,
-    idShipper INT,
-	orderDate VARCHAR(50),
-	shipDate VARCHAR(50),
-	Price Decimal(8,2),
     Quantity INT,
-    Size INT,
-    Color VARCHAR(20),
-    Total Decimal(8,2)
+    Color VARCHAR(20)
 );
 
 
